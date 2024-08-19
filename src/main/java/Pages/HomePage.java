@@ -5,10 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-public class P01_HomePage {
+public class HomePage {
     private WebDriver driver;
 
-    public P01_HomePage(WebDriver driver) {
+    public HomePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
 

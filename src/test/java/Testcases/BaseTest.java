@@ -4,7 +4,7 @@ import Driver.DriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 
-public class T00_BaseTest {
+public class BaseTest {
     protected WebDriver driver;
     @BeforeMethod
     public void setup(){
